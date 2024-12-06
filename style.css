@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./assets/vivid-blurred-colorful-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px, 1250px;
+}
+
+.conteiner {
+    width: 380px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(252, 252, 252, 0.445);
+    margin: 30px auto 0;
+    border-radius: 5px;
+    box-shadow: 0px 6px 33px 17px rgba(0,0,0,0.1);
+}
+
+.conteiner-box {
+    margin: 10% auto 15px;
+    padding: 10px;
+
+}
+
+h1 {
+    padding: 25px;
+    position: relative;
+    left: 60px;
+}
+
+input {
+    padding: 10px 50px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 33px 17px rgba(0,0,0,0.1);
+    border:none;
+
+}
+
+p {
+    display: flex;
+    width: 70%;
+    margin: 10px 0;
+}
+
+h4 {
+    display: flex;
+    width: 70%;
+    margin: 10px 0;
+}
+
+button{
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    color: pink;
+    background-color: black;
+}
+
+button:hover{
+    background-color: rosybrown;
+    opacity: 0.5;
+    color: black;
+    transition: 0.4s;
+}
